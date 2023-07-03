@@ -1,7 +1,7 @@
 // import styled from '@emotion/styled'
-import React from 'react';
-import { Box, Image, Text } from '@chakra-ui/react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Box, Image, Text } from "@chakra-ui/react";
+import { Link } from "react-router-dom";
 
 // export const GridCard = ({id, date, image, text}) => {
 //   return (
@@ -26,27 +26,38 @@ import { Link } from 'react-router-dom';
 //     font-weight: 600;
 //   }
 // `
-export const GridCard = ({id, date, image, text, link}) => {
-
+export const GridCard = ({ id, date, image, text, link }) => {
   return (
-    <Box maxW='sm' borderWidth='1px' borderRadius='lg' overflow='hidden' spacing={5} bg={"gray.100"} >
-      <Image src={image} width={"100%"} height={"60%"}/>
-      <Box p='6'>
-        <Box display='flex' alignItems='baseline' textAlign={"left"}>
+    <Box
+      maxW="sm"
+      borderWidth="1px"
+      borderRadius="lg"
+      overflow="hidden"
+      spacing={5}
+      bg={"gray.100"}
+    >
+      <Image src={image} width={"100%"} objectFit={"contain"} />
+      <Box p="6">
+        <Box display="flex" alignItems="baseline" textAlign={"left"}>
           <Text>{date}</Text>
         </Box>
 
         <Box
-          mt='1'
-          fontWeight='semibold'
-          as='h4'
-          lineHeight='tight'
+          mt="1"
+          fontWeight="semibold"
+          as="h4"
+          lineHeight="tight"
           textAlign={"left"}
           textDecoration={"underline"}
         >
-          <Link to={link}>{text}</Link>
+          <Link to={link} target="_blank">
+            <Text fontSize={{ sm: "12px", md: "14px", lg: "16px" }}>
+              {" "}
+              {text}
+            </Text>
+          </Link>
         </Box>
       </Box>
     </Box>
-  )
-}
+  );
+};

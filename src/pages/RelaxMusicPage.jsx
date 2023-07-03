@@ -10,7 +10,6 @@ import {
   Tag,
   Wrap,
   WrapItem,
-  SpaceProps,
   useColorModeValue,
   Container,
   VStack,
@@ -119,7 +118,8 @@ const RelaxMusicPage = () => {
             />
           </Box>
         </Box>
-        <br /><br />
+        <br />
+        <br />
         <Heading as="h2" mt={5}>
           Latest articles
         </Heading>
@@ -169,7 +169,12 @@ const RelaxMusicPage = () => {
         <VStack paddingTop="40px" spacing="2" alignItems="flex-start">
           <Heading as="h2">What we write about</Heading>
           <Text as="p" fontSize="lg" textAlign={"justify"}>
-          Om is the highest positive vibration. It is a universal syllable, and it is cosmic energy. According to Vedas, and the Big Bang theory - the whole universe was created by the sound Om (aum). Chanting Om raises the vibrations of an individual, not just in body but in the overall consciousness of one's soul and mind. Chanting Om allows you to align with the whole.
+            Om is the highest positive vibration. It is a universal syllable,
+            and it is cosmic energy. According to Vedas, and the Big Bang theory
+            - the whole universe was created by the sound Om (aum). Chanting Om
+            raises the vibrations of an individual, not just in body but in the
+            overall consciousness of one's soul and mind. Chanting Om allows you
+            to align with the whole.
           </Text>
           <Text as="p" fontSize="lg" textAlign={"justify"}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
@@ -179,27 +184,68 @@ const RelaxMusicPage = () => {
             sapien. Suspendisse placerat vulputate posuere. Curabitur neque
             tortor, mattis nec lacus non, placerat congue elit.
           </Text>
-          <Text fontSize={"25px"} fontWeight={"bold"}>Benefits</Text>
-          <Text as="p" fontSize="lg" textAlign={"justify"}>
-              1. Chanting Om raises the vibrations from within, allowing you to feel happier and blissful.<br /> 
-              2. It clears out negative energy, purifying the environment, including people around you.<br /> 
-              3. It provides an instant feeling of calm. <br />
-              4. The vibrations help balance moods and emotions. <br />
-              5. Purifies and improves your aura. <br />
-              6. It has self-healing powers which improve immunity and strength. <br />
-              7. It makes you calmer, happier and healthier. <br />
-              8. It improves concentration, memory and focus. <br />
-              9. It reduces blood pressure and maintains a healthy rhythmic heartbeat.<br />
-              10. It has a profound impact on reducing stress and anxiety. It eliminates worries from the mind. <br />
-              11. Improves imagination and creativity. <br />
-              12. You will soon begin to feel the subtle, pure and strong energy within you. Any heaviness, negativity, imbalance and confusion will begin to subside. <br />
+          <Text fontSize={"25px"} fontWeight={"bold"}>
+            Benefits
           </Text>
-          <Text fontSize={"25px"} fontWeight={"bold"}>What research says about Om chanting</Text>
-          <Text as="p" fontSize="lg" textAlign={"justify"}>          
-            Several studies have deep-dived into the physical and mental health benefits of chanting Om. Some studies are offering insights into how the mantra benefits the mind and body. One such study, published in the International Journal of Yoga Therapy, looked at how Om chanting might be connected to the vagus nerve. This offers insight into how chanting can retune the nervous system by activating the vagus nerve and balancing the parasympathetic nervous system. During Om chanting the vibration felt in the head and ears can be linked to the vagus nerve which has auricular (ear) branches. Therefore, this study hypothesized that chanting Om might stimulate the vagus nerve, producing a similar deactivation of the limbic system. 
-            This is an important factor as low vagal tone is associated with a weak ability to deal with stress, poor digestion, elevated heart rate, and unstable moods. Stimulating the vagus nerve is good for our whole system. 
-            The National Journal of Physiology, Pharmacy and Pharmacology published a study that found five minutes of Om chanting resulted in “highly significant” reduction in blood pressure and pulse rate in participants with hypertension. It was concluded that chanting Om can be a supportive therapy for hypertension patients. 
-            Regular chanting helps you stay healthy - mentally, emotionally, physiologically and psychologically. It improves your inclination towards spirituality, making you a more positive, optimistic and calm person. The practice is unlike any other meditation practice. It is transformative in a fascinating and powerful way. You can chant the mantra silently or aloud. You can also chant on your own, or with a group. In fact, when you chant with a group the vibrations produced are outstanding and unbelievable. The soothing and mesmerizing effect will immediately make you feel relaxed and calm. So join the best online yoga classes and over time, you will feel a dramatic shift in your mind-body-spirit balance and connection.
+          <Text as="p" fontSize="lg" textAlign={"justify"}>
+            1. Chanting Om raises the vibrations from within, allowing you to
+            feel happier and blissful.
+            <br />
+            2. It clears out negative energy, purifying the environment,
+            including people around you.
+            <br />
+            3. It provides an instant feeling of calm. <br />
+            4. The vibrations help balance moods and emotions. <br />
+            5. Purifies and improves your aura. <br />
+            6. It has self-healing powers which improve immunity and strength.{" "}
+            <br />
+            7. It makes you calmer, happier and healthier. <br />
+            8. It improves concentration, memory and focus. <br />
+            9. It reduces blood pressure and maintains a healthy rhythmic
+            heartbeat.
+            <br />
+            10. It has a profound impact on reducing stress and anxiety. It
+            eliminates worries from the mind. <br />
+            11. Improves imagination and creativity. <br />
+            12. You will soon begin to feel the subtle, pure and strong energy
+            within you. Any heaviness, negativity, imbalance and confusion will
+            begin to subside. <br />
+          </Text>
+          <Text fontSize={"25px"} fontWeight={"bold"}>
+            What research says about Om chanting
+          </Text>
+          <Text as="p" fontSize="lg" textAlign={"justify"}>
+            Several studies have deep-dived into the physical and mental health
+            benefits of chanting Om. Some studies are offering insights into how
+            the mantra benefits the mind and body. One such study, published in
+            the International Journal of Yoga Therapy, looked at how Om chanting
+            might be connected to the vagus nerve. This offers insight into how
+            chanting can retune the nervous system by activating the vagus nerve
+            and balancing the parasympathetic nervous system. During Om chanting
+            the vibration felt in the head and ears can be linked to the vagus
+            nerve which has auricular (ear) branches. Therefore, this study
+            hypothesized that chanting Om might stimulate the vagus nerve,
+            producing a similar deactivation of the limbic system. This is an
+            important factor as low vagal tone is associated with a weak ability
+            to deal with stress, poor digestion, elevated heart rate, and
+            unstable moods. Stimulating the vagus nerve is good for our whole
+            system. The National Journal of Physiology, Pharmacy and
+            Pharmacology published a study that found five minutes of Om
+            chanting resulted in “highly significant” reduction in blood
+            pressure and pulse rate in participants with hypertension. It was
+            concluded that chanting Om can be a supportive therapy for
+            hypertension patients. Regular chanting helps you stay healthy -
+            mentally, emotionally, physiologically and psychologically. It
+            improves your inclination towards spirituality, making you a more
+            positive, optimistic and calm person. The practice is unlike any
+            other meditation practice. It is transformative in a fascinating and
+            powerful way. You can chant the mantra silently or aloud. You can
+            also chant on your own, or with a group. In fact, when you chant
+            with a group the vibrations produced are outstanding and
+            unbelievable. The soothing and mesmerizing effect will immediately
+            make you feel relaxed and calm. So join the best online yoga classes
+            and over time, you will feel a dramatic shift in your
+            mind-body-spirit balance and connection.
           </Text>
         </VStack>
       </Container>

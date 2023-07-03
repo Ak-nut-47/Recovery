@@ -10,7 +10,6 @@ import {
   Icon,
   IconButton,
   createIcon,
-  IconProps,
   useColorModeValue,
 } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
@@ -48,7 +47,9 @@ export default function CallToActionWithVideo() {
             </Text>
           </Heading>
           <Text color={"gray.500"} textAlign={"center"}>
-          It underpins our economy, our society, indeed our very existence. Our forests, rivers, oceans and soils provide us with the food we eat, the air we breathe, the water we irrigate our crops with.
+            It underpins our economy, our society, indeed our very existence.
+            Our forests, rivers, oceans and soils provide us with the food we
+            eat, the air we breathe, the water we irrigate our crops with.
           </Text>
           <Stack
             spacing={{ base: 4, sm: 6 }}
@@ -79,14 +80,14 @@ export default function CallToActionWithVideo() {
             </Button>
           </Stack>
         </Stack>
-        <Link to={"https://youtu.be/UV0mhY2Dxr0"}>
-        <Flex
-          flex={1}
-          justify={"center"}
-          align={"center"}
-          position={"relative"}
-          w={"full"}
-        >
+        <Link to={"https://youtu.be/UV0mhY2Dxr0"} target="_blank">
+          <Flex
+            flex={1}
+            justify={"center"}
+            align={"center"}
+            position={"relative"}
+            w={"full"}
+          >
             <Blob
               w={"150%"}
               h={"150%"}
@@ -95,41 +96,41 @@ export default function CallToActionWithVideo() {
               left={0}
               zIndex={-1}
               color={useColorModeValue("yellow.100", "yellow.400")}
-            />          
-          <Box
-            position={"relative"}
-            height={"300px"}
-            rounded={"2xl"}
-            boxShadow={"2xl"}
-            width={"full"}
-            overflow={"hidden"}
-          >
-            <IconButton
-              aria-label={"Play Button"}
-              variant={"ghost"}
-              _hover={{ bg: "transparent" }}
-              icon={<PlayIcon w={12} h={12} />}
-              size={"lg"}
-              color={"white"}
-              position={"absolute"}
-              left={"50%"}
-              top={"50%"}
-              transform={"translateX(-50%) translateY(-50%)"}
             />
-            <Link to={"https://youtu.be/UV0mhY2Dxr0"}>
-              <Image
-                alt={"Hero Image"}
-                fit={"cover"}
-                align={"center"}
-                w={"100%"}
-                h={"100%"}
-                src={
-                  "https://images.unsplash.com/photo-1500622944204-b135684e99fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bmF0dXJhbHxlbnwwfHwwfHw%3D&w=1000&q=80"
-                }
+            <Box
+              position={"relative"}
+              height={"300px"}
+              rounded={"2xl"}
+              boxShadow={"2xl"}
+              width={"full"}
+              overflow={"hidden"}
+            >
+              <IconButton
+                aria-label={"Play Button"}
+                variant={"ghost"}
+                _hover={{ bg: "transparent" }}
+                icon={<PlayIcon w={12} h={12} />}
+                size={"lg"}
+                color={"white"}
+                position={"absolute"}
+                left={"50%"}
+                top={"50%"}
+                transform={"translateX(-50%) translateY(-50%)"}
               />
-            </Link>
-          </Box>
-        </Flex>
+              <Link target="_blank" to={"https://youtu.be/UV0mhY2Dxr0"}>
+                <Image
+                  alt={"Hero Image"}
+                  fit={"cover"}
+                  align={"center"}
+                  w={"100%"}
+                  h={"100%"}
+                  src={
+                    "https://images.unsplash.com/photo-1500622944204-b135684e99fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bmF0dXJhbHxlbnwwfHwwfHw%3D&w=1000&q=80"
+                  }
+                />
+              </Link>
+            </Box>
+          </Flex>
         </Link>
       </Stack>
     </Container>
