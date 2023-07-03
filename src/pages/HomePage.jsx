@@ -3,6 +3,7 @@ import { FeatureStory } from "../list_cards/FeatureStory";
 import Carousel from "../list_cards/Carousel";
 import Carousel2 from "../list_cards/Carousel2";
 import { cards1, cards2, featureArr } from "../data_Arrays/data";
+import { Flex, Text } from "@chakra-ui/react";
 
 export const HomePage = () => {
   const [text, setText] = useState("");
@@ -42,25 +43,25 @@ export const HomePage = () => {
             padding: "150px 70px",
           }}
         >
-          <div
+          <Flex
             style={{
-              width: "40%",
               // height: "30%",
               // border: "1px solid red",
               textAlign: "start",
             }}
+            width={{ sm: "60%", md: "50%", lg: "40%" }}
           >
-            <p
+            <Text
               style={{
                 opacity: "1",
                 color: "white",
-                fontSize: "30px",
                 fontWeight: "bold",
               }}
+              fontSize={{ sm: "20px", md: "22px", lg: "26px" }}
             >
               {text}
-            </p>
-          </div>
+            </Text>
+          </Flex>
         </div>
       </div>
       <Carousel data={cards1} title={"Mental Health Problems"} />
