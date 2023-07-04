@@ -62,6 +62,54 @@ By utilizing Chakra UI, we have customized the appearance of the Non-existing Ro
 ## Premium Plans Static Page
 <img width="800" src="https://github.com/Ak-nut-47/Recovery/blob/main/Project_Images/Premium%20Plans.png?raw=true">
 
+## Built With
+
+- [Chakra UI Icons](https://chakra-ui.com/)
+- [Chakra UI React](https://chakra-ui.com/)
+- [Emotion React](https://emotion.sh/docs/@emotion/react)
+- [Emotion Styled](https://emotion.sh/docs/@emotion/styled)
+- [Fontsource Roboto](https://github.com/fontsource/fontsource)
+- [Material-UI Icons](https://mui.com/components/icons/)
+- [Material-UI](https://mui.com/)
+- [Material-UI Styled Engine SC](https://mui.com/styled-engine/)
+- [Testing Library Jest DOM](https://testing-library.com/docs/ecosystem-jest-dom/)
+- [Testing Library React](https://testing-library.com/docs/ecosystem-react-testing-library/)
+- [Testing Library User Event](https://testing-library.com/docs/ecosystem-user-event/)
+- [AOS](https://michalsnik.github.io/aos/)
+- [Axios](https://axios-http.com/)
+- [Formik](https://formik.org/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [React](https://reactjs.org/)
+- [React DOM](https://reactjs.org/docs/react-dom.html)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [React Player](https://cookpete.com/react-player/)
+- [React Redux](https://react-redux.js.org/)
+- [React Router DOM](https://reactrouter.com/web/guides/quick-start)
+- [React Scripts](https://create-react-app.dev/docs/available-scripts/)
+- [React Slick](https://react-slick.neostack.com/)
+- [React Spring](https://react-spring.io/)
+- [React Video.js Player](https://github.com/couds/react-video-js-player)
+- [Redux](https://redux.js.org/)
+- [Redux Thunk](https://github.com/reduxjs/redux-thunk)
+- [Slick Carousel](https://kenwheeler.github.io/slick/)
+- [Styled Components](https://styled-components.com/)
+- [Web Vitals](https://web.dev/vitals/)
+- [Yup](https://github.com/jquense/yup)
+
+# Core Functionalities 
+- [Homepage]
+  - Text animation using setTimeout and useEffect.
+  - Implementation of a carousel using react-slick.
+  - Responsive navigation bar and footer section design.
+
+ - [Blog page]
+  - Basic routing with react-router-dom.
+  - Page-not-found feature for non-existent routes.
+  - Sorting, filtering, and searching functionalities for blog cards.
+  - Responsive design using Chakra Components.
+  - Loading indicator for network requests.
+  - Reusable functional components for individual cards.
+  - Debouncing in search functionality. 
 
 
 - Tech Stack
