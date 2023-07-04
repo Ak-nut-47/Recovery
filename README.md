@@ -134,51 +134,19 @@ By utilizing Chakra UI, we have customized the appearance of the Non-existing Ro
   - Continuous slides mode with react-slick.
 
 
-
-
-
-
-- Tech Stack
-
-Frontend: HTML, CSS, JavaScript, React
-Backend: Node.js,
-Database: MockAPI
-
-- Dependencies
-  React: ^17.0.2
-  react-dom: ^17.0.2
-  react-router-dom: ^5.2.0
-  dotenv: ^10.0.0
-  Getting Started
-  Clone the repository
-  Install the dependencies: npm install
-  Start the server: npm start
-  Open the app in your browser: http://localhost:3000
-  Screenshots
-  Screenshot of Recovery App Home Page
-
-Screenshot of Recovery App Progress Tracker
-
-Contributing
-Contributions are welcome! If you have any ideas, feel free to open an issue or submit a pull request.
-
 ## Features
 
-- Find local support groups and meetings
-- Access a directory of treatment centers and facilities
-- Connect with certified addiction counselors
-- Read articles and personal stories from others in recovery
+- Find Relaxing Nature Music
+- Inspirational Ted Talks
+- Blogs to Help you Recover from Mental Illness
+- Connect With Therapist (Coming Soon)
+- Read articles and personal stories from others in recovery (Feature Coming Soon)
 
 ## How to Use
 
-1. Visit [Recovery](https://www.recovery.com).
-2. Use the search bar to find local resources or browse the directory.
-3. Create an account to access additional features, such as the ability to connect with addiction counselors and participate in online support groups.
+1. Visit [Recovery](https://recovery-mental-health.netlify.app/).
 
-## About the Team
-
-Recovery was founded by a group of individuals passionate about supporting those in addiction recovery. Our team includes certified addiction counselors, social workers, and individuals in recovery themselves.
 
 ## Contact Us
 
-If you have any questions or feedback, please email us at info@recovery.com.
+If you have any questions or feedback, please email us at animesh.kalita22@gmail.com
