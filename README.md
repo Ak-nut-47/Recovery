@@ -9,18 +9,60 @@ Overall, the goal of this web application is to provide a safe and supportive sp
  - [@Animesh Kalita](https://github.com/Ak-nut-47)
  - [@Aniket Nagpure](https://github.com/anagpure28)
 
+## Links
+- [GitHub Repository](https://github.com/Ak-nut-47/Recovery)
+- [Live Demo](https://recovery-mental-health.netlify.app/nature-sound)
+
 # Landing Page
 <img width="800" src="https://github.com/Ak-nut-47/Recovery/blob/main/Project_Images/Home1.png?raw=true">
 On the Landing Page, we learned how to use setTimeout inside useEffect to create a text animation that simulates writing. Additionally, we incorporated the react-slick carousel library to implement a carousel feature. We also focused on designing a responsive navigation bar and footer section for the website.
- 
 
-#Deployed Link: https://imind.vercel.app/
+### Footer 
+<img width="800" src="https://github.com/Ak-nut-47/Recovery/blob/main/Project_Images/Footer.png?raw=true">
 
-##Home Page
-![image](https://github.com/anagpure28/adhesive-caption-1992/assets/92313981/808dff33-a551-4309-9537-7fbea0e04ea8)
+# Blog page
+<img width="800" src="https://github.com/Ak-nut-47/Recovery/blob/main/Project_Images/Blog.png?raw=true">
+In the blog page, we delved into basic routing using react-router-dom. We also developed a page-not-found feature that redirects users when a non-existent route is accessed. To enhance user experience, we implemented sorting, filtering, and searching functionalities for the blog cards based on categories. We ensured the blog page was fully responsive using Chakra Components. Furthermore, we incorporated a loading indicator to provide feedback during network requests. By utilizing reusable functional components and mapping, we successfully created individual cards. Additionally, we implemented debouncing in the search functionality.
 
-##Admin Page
-![image](https://github.com/anagpure28/adhesive-caption-1992/assets/92313981/1a031be2-2956-40ff-a7ca-3fcad46f0795)
+# Admin Page
+### Admin Desk
+<img width="800" src="https://github.com/Ak-nut-47/Recovery/blob/main/Project_Images/Admin%20Page%20Details.png?raw=true">
+
+### Admin Login Form
+<img width="800" src="https://github.com/Ak-nut-47/Recovery/blob/main/Project_Images/Admin%20Login%20Panel.png?raw=true">
+
+### Admin New Blog Creation Form
+<img width="800" src="https://github.com/Ak-nut-47/Recovery/blob/main/Project_Images/Admin%20New%20Blog%20Creation%20Form.png?raw=true">
+The admin page encompasses all CRUD (Create, Read, Update, Delete) functionalities. Admin users can add, remove, and modify blogs from this page. They can also upload images, text, and videos. Access to the admin page is facilitated through a small cross icon that appears on the blog page when hovering over a transparent panel. Used Axios for making network requests and handling form submissions.
+
+# Individual Cards or Single Blog Page
+<img width="800" src="https://github.com/Ak-nut-47/Recovery/blob/main/Project_Images/Individual%20Blog.png?raw=true">
+On this page, we focused on creating individual pages for each blog dynamically by extracting the ID from the URL parameters. To enhance the user experience, we utilized the react-player library to embed videos on the site. Additionally, we employed Axios to track the number of viewers and the number of likes on individual blog posts. We also utilized Chakra for styling purposes.
+
+# Relaxation Music Page
+<img width="800" src="https://github.com/Ak-nut-47/Recovery/blob/main/Project_Images/Relaxing%20Music%20Page.png?raw=true">
+The relaxation music page provides users with a serene experience as soothing background music plays upon landing on the page.
+
+# Nature Sound with Video Page
+<img width="800" src="https://github.com/Ak-nut-47/Recovery/blob/main/Project_Images/Nature%20Sound%20With%20Videos.png?raw=true">
+This page features articles and links to external sites. We integrated the react-player library to showcase videos and incorporated articles and small posts relevant to the videos. Additionally, we implemented styling effects and animations to enhance the page's visual appeal. We also utilized react-slick for a continuous slides mode.
+
+## Non Existing Route Handler
+<img width="800" src="https://github.com/Ak-nut-47/Recovery/blob/main/Project_Images/Non%20Existent%20Routes.png?raw=true">
+The Non-existing Route Component is a feature implemented using React Router DOM and Chakra UI in our project. It is designed to handle routes that do not exist or are not defined in our application.
+When a user navigates to a route that does not match any existing routes, the Non-existing Route Component comes into action. It serves as a fallback route, ensuring that users are directed to a designated page instead of encountering a blank or error page.
+By utilizing Chakra UI, we have customized the appearance of the Non-existing Route Component to provide a visually appealing and user-friendly experience. We have incorporated Chakra's styling components and utilities to create an aesthetically pleasing layout and design for this fallback page.
+
+## Login Panel
+<img width="800" src="https://github.com/Ak-nut-47/Recovery/blob/main/Project_Images/Login%20Page.png?raw=true">
+
+## SignUp Panel
+<img width="800" src="https://github.com/Ak-nut-47/Recovery/blob/main/Project_Images/Sign%20Up%20page.png?raw=true">
+
+## Premium Plans Static Page
+<img width="800" src="https://github.com/Ak-nut-47/Recovery/blob/main/Project_Images/Premium%20Plans.png?raw=true">
+
+
 
 - Tech Stack
 
