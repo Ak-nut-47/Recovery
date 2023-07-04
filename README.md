@@ -1,9 +1,18 @@
-## RECOVERY
+# RECOVERY
 
 A web application that provides educational content and resources related to mental health. The application includes articles on various topics such as anxiety and depression, along with videos and other resources that can be helpful for people seeking information about these conditions.
 In addition to providing educational content, the web application also features a forum where users can connect with each other and share their experiences related to mental health. This forum creates a supportive community where users can find comfort and advice from others who may be going through similar experiences.
 
 Overall, the goal of this web application is to provide a safe and supportive space for individuals seeking information and resources related to mental health. It strives to reduce the stigma surrounding mental illness and promote mental health awareness and wellness.
+
+# Team Members
+ - [@Animesh Kalita](https://github.com/Ak-nut-47)
+ - [@Aniket Nagpure](https://github.com/anagpure28)
+
+# Landing Page
+<img width="800" src="https://github.com/Ak-nut-47/Recovery/blob/main/Project_Images/Home1.png?raw=true">
+On the Landing Page, we learned how to use setTimeout inside useEffect to create a text animation that simulates writing. Additionally, we incorporated the react-slick carousel library to implement a carousel feature. We also focused on designing a responsive navigation bar and footer section for the website.
+ 
 
 #Deployed Link: https://imind.vercel.app/
 
