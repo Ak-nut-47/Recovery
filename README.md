@@ -111,6 +111,32 @@ By utilizing Chakra UI, we have customized the appearance of the Non-existing Ro
   - Reusable functional components for individual cards.
   - Debouncing in search functionality. 
 
+- [Admin page]
+  - CRUD (Create, Read, Update, Delete) functionalities.
+  - Adding, removing, and modifying blogs.
+  - Upload of images, text, and videos.
+  - Access via a hover-enabled cross icon on the blog page.
+  - Network requests and form handling with Axios.
+
+- [Individual Cards or Single Page]
+  - Dynamic creation of individual pages based on URL parameters.
+  - Embedding videos using react-player.
+  - Tracking viewers and likes with Axios.
+  - Styling with Chakra.
+  
+- [Relaxation Music Page]
+  - Serene experience with soothing background music.
+
+- [Nature Sound with Video]
+  - Articles and links to external sites.
+  - Videos showcased using react-player.
+  - Styling effects and animations.
+  - Continuous slides mode with react-slick.
+
+
+
+
+
 
 - Tech Stack
 
