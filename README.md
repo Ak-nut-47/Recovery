@@ -102,7 +102,7 @@ By utilizing Chakra UI, we have customized the appearance of the Non-existing Ro
   - Implementation of a carousel using react-slick.
   - Responsive navigation bar and footer section design.
 
- - [Blog page]
+- [Blog Page]
   - Basic routing with react-router-dom.
   - Page-not-found feature for non-existent routes.
   - Sorting, filtering, and searching functionalities for blog cards.
